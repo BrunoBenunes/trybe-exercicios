@@ -1,24 +1,37 @@
-body{
-  padding: 0;
-  margin: 0;
+div:hover{
+  border: 2px solid brown;
 }
-h1, p{
-  text-align: center;
+div:first-of-type{
+  background-color: aqua;;
 }
-.Lista{
-  text-align: center;
-  width: 20%;
-  margin: auto;
+div:nth-of-type(2){
+  background-color: red;
 }
-.Lista li:hover{
-  background-color: royalblue;
+div:nth-of-type(3){
+  background-color: blueviolet;
+  height: 200px;
 }
-.Lista li:active{
+div:nth-of-type(4){
+  background-color: brown;
+}
+div:last-of-type{
+  background-color: violet;
+}
+div:first-of-type h3{
+  color: blue;
   font-style: italic;
 }
-ul , ol{
-  list-style: none;
+div:nth-of-type(2) h3{
+  color: rgb(71, 255, 102);
 }
-ul{
-  text-align: center;
+div:nth-of-type(3) h3{
+  color: azure;
+  font-style: italic;
+}
+div:nth-of-type(4) h3{
+  color: aqua;
+}
+div:last-of-type{
+  color: rgb(255, 232, 26);
+  font-style: italic;
 }
