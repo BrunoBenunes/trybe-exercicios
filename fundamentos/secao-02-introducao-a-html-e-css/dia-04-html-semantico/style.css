@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+}
+
+.second {
+    background-color: rgb(218, 218, 218);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+}
+section:first-of-type ul:first-of-type{
+    text-align: center;
+    list-style: none;
+}
+section:first-of-type ul:first-of-type li{
+    display: inline-block;
+}
+section:first-of-type ul:first-of-type li:first-child{
+    margin: auto;
+    display: block;
+}
+h3{
+    text-align: center;
+}
+.premiacao li{
+    display: inline;
+    text-align: center;
+}
+.premiacao{
+    text-align: center;
+}
