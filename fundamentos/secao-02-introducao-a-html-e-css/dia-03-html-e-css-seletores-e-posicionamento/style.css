@@ -1,37 +1,43 @@
-div:hover{
-  border: 2px solid brown;
+ol li{
+  background-color: yellow;
 }
-div:first-of-type{
-  background-color: aqua;;
+ol li:nth-child(even){
+  color: green;
 }
-div:nth-of-type(2){
-  background-color: red;
+ol li:nth-child(odd){
+  text-transform: uppercase;
 }
-div:nth-of-type(3){
-  background-color: blueviolet;
-  height: 200px;
+h1,h2,h3{
+  color: red;
 }
-div:nth-of-type(4){
-  background-color: brown;
+h1 em, h2 em, h3 em{
+  font-size: 40px;
+  border: 1px solid black;
 }
-div:last-of-type{
-  background-color: violet;
+li{
+  font-size: 20px;
 }
-div:first-of-type h3{
+li em{
+  font-weight: bold;
+}
+ul:first-of-type li:nth-child(-n + 3){
   color: blue;
-  font-style: italic;
 }
-div:nth-of-type(2) h3{
-  color: rgb(71, 255, 102);
+.backrosa{
+  background-color: pink;
 }
-div:nth-of-type(3) h3{
-  color: azure;
-  font-style: italic;
+ul:last-of-type li:nth-child(1) a:hover, ul:last-of-type li:nth-child(1):hover{
+  color: orangered;
 }
-div:nth-of-type(4) h3{
-  color: aqua;
+ul:last-of-type li:nth-child(2) a:hover, ul:last-of-type li:nth-child(2):hover{ 
+  color: rgb(139, 236, 148);
 }
-div:last-of-type{
-  color: rgb(255, 232, 26);
-  font-style: italic;
+ul:last-of-type li:nth-child(3) a:hover, ul:last-of-type li:nth-child(3):hover{
+  color: rgb(43, 40, 40);
+}
+ul:last-of-type li:nth-child(4) a:hover, ul:last-of-type li:nth-child(4):hover{
+  color: wheat;
+}
+ul:last-of-type li:nth-child(5) a:hover, ul:last-of-type li:nth-child(5):hover{
+  color: green;
 }
