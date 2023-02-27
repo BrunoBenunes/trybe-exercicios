@@ -1,4 +1,4 @@
-let a = 10
+let a = 0
 let b = 5
 let c = 20
 const adicao = a + b;
@@ -20,4 +20,12 @@ if ( a > b && a > c){
     console.log('Entre ',a,b,c,' O maior numero é o ',b);
 } else if (c > a && c > b) {
     console.log('Entre ',a,b,c,' O maior numero é o ',c);
+}
+
+if ( a < 0) {
+    console.log('Negative');
+} else if (a > 0){
+    console.log('Positive');
+} else if (a === 0) {
+    console.log('Zero')
 }
