@@ -43,3 +43,15 @@ for (let index = 0; index < numbers.length ; index += 1) {
 }
 console.log(oddCount,oddElement);
 
+// Descobrindo o Menor valor na lista numbers
+
+let lowNumber = 0
+
+for (let index = 0; index < numbers.length ; index += 1) {
+    if (lowNumber === 0){
+        lowNumber = numbers[index];
+    } else if (numbers[index] < lowNumber) {
+        lowNumber = numbers[index]
+    }
+} 
+console.log(lowNumber)
