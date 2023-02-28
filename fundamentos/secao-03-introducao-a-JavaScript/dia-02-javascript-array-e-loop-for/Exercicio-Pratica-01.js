@@ -66,6 +66,15 @@ for (let index = 1; index <= 25; index += 1) {
 console.log('Criado um array de 1 a 25 utilizando for : ' + arrayNumbers1a25)
 
 
+// Dividindo cada um dos elementos da lista arrayNumbers1a25 por 2 - 
+
+for (let index = 0 ; index < arrayNumbers1a25.length ; index += 1) {
+    let division = (arrayNumbers1a25[index] / 2);
+    console.log('O numero: ' + arrayNumbers1a25[index] + ' Divido por 2 tem o resultado: ' + division)
+}
+
+
+
 // let arrayNumbers1a25 = []
 
 // for (index = 0; index < 25 ; index += 1) {
