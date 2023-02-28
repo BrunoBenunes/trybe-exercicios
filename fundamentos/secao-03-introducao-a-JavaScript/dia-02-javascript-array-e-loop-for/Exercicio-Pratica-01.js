@@ -14,3 +14,12 @@ if (numbers[numbers.length - 1] > 20) {
 } else {
     console.log('O ultimo elemento da lista numbers é menor ou igual a 20');
 };
+
+let highNumber = 0
+
+for (let index = 0; index < numbers.length ; index += 1) {
+    if (numbers[index] > highNumber){
+        highNumber = numbers[index]
+    }
+}
+console.log('O maior valor contido na lista numbers é: ' + highNumber)
