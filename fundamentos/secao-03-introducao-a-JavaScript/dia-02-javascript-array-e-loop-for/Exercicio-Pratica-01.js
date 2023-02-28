@@ -55,3 +55,25 @@ for (let index = 0; index < numbers.length ; index += 1) {
     }
 } 
 console.log(lowNumber)
+
+// Criando um array que vá de 1 a 25 e imprima -
+
+let arrayNumbers1a25 = []
+
+for (let index = 1; index <= 25; index += 1) {
+    arrayNumbers1a25.push(index)
+}
+console.log('Criado um array de 1 a 25 utilizando for : ' + arrayNumbers1a25)
+
+
+// let arrayNumbers1a25 = []
+
+// for (index = 0; index < 25 ; index += 1) {
+//     let randomNumber = Math.ceil(Math.random() * 25)
+//     if (!(arrayNumbers1a25.includes(randomNumber))) {
+//         arrayNumbers1a25.push(randomNumber)
+//     } else {
+//         index -= 1;
+//     }
+// }
+// console.log('Um Array criado automagicamente com for, sem repetir nenhum valor! : ' + arrayNumbers1a25)
