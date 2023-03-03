@@ -8,3 +8,7 @@ console.log(`Bem vindo(a), ${info.personagem}`);
 
 info.recorrente = 'Sim';
 console.log(info);
+
+for (let key in info) {
+  console.log(key)
+}
