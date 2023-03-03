@@ -16,3 +16,15 @@ console.log('-----------------')
 for (let key in info) {
   console.log(info[key]);
 }
+
+let cloneInfo = Object.assign({}, info)
+function newValues(arrayNewValues) {
+  let keysInfo = Object.keys(info)
+  for (let key in cloneInfo) {
+    cloneInfo[key] = arrayNewValues[keysInfo.indexOf(key)]
+  }
+}
+newValues(['Tio Patinhas', `Christmas on Bear Mountain, Dell's Four Color Comics #178`,'O ultimo MacPatinhas', 'Sim'])
+for (let key in info) {
+  console.log(`${info[key]} e ${cloneInfo[key]}`);
+}
