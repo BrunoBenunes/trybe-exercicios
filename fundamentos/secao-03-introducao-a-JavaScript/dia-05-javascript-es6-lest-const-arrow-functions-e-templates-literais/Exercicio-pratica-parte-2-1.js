@@ -9,5 +9,6 @@ const startStopCar = (power) => {
     car.status = 'on'
   }
 }
+
 startStopCar('on')
 console.log(car)
