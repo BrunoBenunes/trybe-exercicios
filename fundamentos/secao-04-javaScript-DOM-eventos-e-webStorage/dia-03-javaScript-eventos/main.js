@@ -1,3 +1,4 @@
+window.onload = () => {
 const firstLi = document.getElementById('first-li');
 const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
@@ -58,7 +59,6 @@ myWebpage.addEventListener('mouseover', (event) => {
 })
 // Segue abaixo um exemplo do uso de event.target:
 
-
 const resetText = (event) => {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';
@@ -71,3 +71,4 @@ firstLi.addEventListener('dblclick', resetText);
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'firstLi'.
+}
