@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 200px;
+  margin: auto;
+  margin-top: 100px;
+  /* border: 2px solid black; */
+  text-align: center;
+
+}
+
+#loginArea {
+  /* border: 1px solid red; */
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
